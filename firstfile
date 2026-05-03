@@ -1,4 +1,4 @@
 Today I practiced a real Git scenario where I had two completely separate repositories.
-
+After merging, both project files and their full commit histories were successfully combined into one repository.
 One repo was cloned from GitHub (mysecondrepo) and another repo (newrepo) was created locally in my Linux system.
-
+This is similar to a real company scenario where two teams build separate projects and later management decides to combine them into a single codebase.
