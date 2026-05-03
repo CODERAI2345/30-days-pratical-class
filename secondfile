@@ -1,1 +1,1 @@
-
+Since both repos were created separately, Git does not allow merging directly because their commit histories are different. So first, I added the local repo as a remote inside the cloned repo, fetched its branches, and then merged using
