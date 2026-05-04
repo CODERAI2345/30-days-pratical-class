@@ -1,1 +1,23 @@
+name: CI Pipeline
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run a script
+        run: echo "Build Successful!"
+
+      - name: debug
+        run: ls -lr
+        
+      - name: Run Python file
+        run: python3 30_days_devops_training_veeresh_alladi-main/Day_2/test2.py
